@@ -1,0 +1,11 @@
+.all-components {
+  background-color: rgba(243, 245, 247, 1);
+}
+.chart {
+  margin: auto;
+}
+@media (min-width: 1200px) {
+  .chart {
+    width: 1272px;
+  }
+}

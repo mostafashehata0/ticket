@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+/* -==============start all================== */
+.all {
+  margin: auto;
+}
+@media (min-width: 1200px) {
+  .all {
+    width: 1272px;
+  }
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  .all {
+    width: 350px;
+  }
+}
+@media (min-width: 540px) and (max-width: 1200px) {
+  .all {
+    width: 720px;
+  }
+}
+
+/* ============================End all=========================== */
+/* =============================start label======================= */
+
+@media (min-width: 1200px) {
+  label {
+    font-family: Neo Sans Arabic;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  label {
+    font-size: 10px;
+  }
+}
+@media (min-width: 540) and (max-width: 1200px) {
+  label {
+    font-size: 10px;
+  }
+}
+/* ========================End label=========================== */
+/* ===========start search==================================== */
+@media (min-width: 300px) and (max-width: 540px) {
+  .search {
+    font-size: 12px;
+    margin: 0;
+  }
+  .search input {
+    width: 60px;
+    border-radius: 5px;
+    margin: 0;
+  }
+}
+
+.search input {
+  border-radius: 5px;
+  border-color: transparent;
+}
+/*========================== End search============================= */
+/*========================== start icon =========================== */
+.icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 7.5px;
+  border: 0.75px;
+  background-color: white;
+  text-align: center;
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  .icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 7.5px;
+    border: 0.75px;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    position: relative;
+  }
+  .icon img {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 2px;
+    /* padding: 1px; */
+  }
+}
+@media (min-width: 540) and (max-width: 1200px) {
+  .icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 7.5px;
+    border: 0.75px;
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    position: relative;
+  }
+  .icon img {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    left: 2px;
+    /* padding: 1px; */
+  }
+}
+/*========================== End icon =========================== */
+/* ==============start buttons ================================= */
+@media (min-width: 300px) and (max-width: 540px) {
+  .buttons {
+    width: 90px;
+  }
+}
+.buttons .form-check .form-check-input {
+  width: 34px;
+  height: 18px;
+  border-radius: 38.25px;
+  background-color: rgba(138, 116, 249, 1);
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  .buttons .form-check .form-check-input {
+    width: 25px;
+    height: 12px;
+    margin-top: 8px;
+  }
+}
+
+.buttons button {
+  width: 100px;
+  height: 35px;
+  margin-left: 18px;
+  border-radius: 6px;
+  color: white;
+  background-color: rgba(138, 116, 249, 1);
+  font-size: 8px;
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  .buttons button {
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(138, 116, 249, 1);
+    font-size: 6px;
+  }
+}
+/* ============================End buttons============================ */

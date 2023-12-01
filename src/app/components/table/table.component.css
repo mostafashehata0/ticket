@@ -1,0 +1,311 @@
+* {
+  box-sizing: border-box;
+}
+.all {
+  background-color: white;
+  border-radius: 6px;
+  margin: auto;
+}
+
+@media (min-width: 1200px) {
+  .all {
+    width: 1272px;
+  }
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  .all {
+    width: 350px;
+  }
+  .containe {
+    margin: 0;
+  }
+  .table {
+    width: 350px;
+  }
+}
+@media (min-width: 540px) and (max-width: 1200px) {
+  .all {
+    width: 720px;
+  }
+  .containe {
+    margin: 0;
+  }
+  .table {
+    width: 720px;
+  }
+}
+.containe {
+  background-color: white;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+/*====================== start th ========================== */
+.table th {
+  font-family: Neo Sans Arabic;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(171, 170, 177, 1);
+  background-color: rgba(243, 245, 247, 1);
+}
+.table th img {
+  width: 14px;
+  height: 14px;
+  color: black;
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  .table {
+    width: 320px;
+  }
+  .table th {
+    font-size: 8px;
+    padding: 0;
+  }
+
+  .table th img {
+    width: 8px;
+    height: 8px;
+  }
+}
+@media (min-width: 540px) and (max-width: 1200px) {
+  .table {
+    width: 720px;
+  }
+  .table th {
+    font-size: 10px;
+    padding: 0;
+  }
+
+  .table th img {
+    width: 8px;
+    height: 8px;
+    display: none;
+  }
+}
+
+/* ======================End th================================= */
+/* ======================start td================================= */
+
+.table td {
+  text-align: center;
+}
+
+@media (min-width: 300px) and (max-width: 540px) {
+  .table td {
+    font-size: 6px;
+  }
+  .first {
+    padding: 0;
+  }
+  .user p {
+    font-size: 6px;
+  }
+  .user img {
+    width: 20px;
+    height: 20px;
+  }
+
+  td .address {
+    font-size: 8px;
+  }
+}
+@media (min-width: 540px) and (max-width: 1200px) {
+  .table {
+    padding-right: 0;
+  }
+  .table td {
+    font-size: 10px;
+  }
+  .first {
+    padding: 0;
+  }
+  .user p {
+    font-size: 8px;
+  }
+  .user img {
+    width: 20px;
+    height: 20px;
+  }
+
+  td .address {
+    font-size: 8px;
+  }
+}
+.address {
+  font-family: Neo Sans Arabic;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+p {
+  margin: 0;
+  font-family: Neo Sans Arabic;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.number {
+  color: rgba(146, 161, 173, 1);
+}
+
+.theticket .icon {
+  width: 31.67px;
+  height: 31.67px;
+  margin-right: 8px;
+  padding: 11.22px;
+  border-radius: 7.92px;
+  background-color: rgba(138, 116, 249, 0.1);
+  text-align: center;
+  position: relative;
+}
+.theticket .icon img {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.download {
+  width: 16px;
+  height: 16px;
+  border: 1.25px solid;
+  border-color: rgba(138, 116, 249, 1);
+  border-radius: 5px;
+  position: relative;
+}
+.download img {
+  position: absolute;
+  top: 1px;
+  left: 0.5px;
+}
+.details {
+  text-align: center;
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  .theticket p {
+    font-size: 6px;
+  }
+  .theticket .icon {
+    width: 16.67px;
+    height: 18.67px;
+    padding: 8.22px;
+    margin-right: 4px;
+    position: relative;
+  }
+  .theticket .icon img {
+    width: 12px;
+    height: 10px;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+  }
+  .download {
+    width: 16px;
+    height: 14px;
+    border: 1.25px solid;
+    border-color: rgba(138, 116, 249, 1);
+    border-radius: 5px;
+    position: relative;
+  }
+  .download img {
+    width: 9px;
+    height: 10px;
+    position: absolute;
+    top: 1px;
+    left: -1px;
+  }
+}
+@media (min-width: 540px) and (max-width: 1200px) {
+  .theticket p {
+    font-size: 10px;
+  }
+  .theticket .icon {
+    width: 20.67px;
+    height: 20.67px;
+    padding: 8.22px;
+    margin-right: 4px;
+    position: relative;
+  }
+  .theticket .icon img {
+    width: 12px;
+    height: 10px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+  }
+  .download {
+    width: 16px;
+    height: 14px;
+    border: 1.25px solid;
+    border-color: rgba(138, 116, 249, 1);
+    border-radius: 5px;
+    position: relative;
+  }
+  .download img {
+    width: 9px;
+    height: 10px;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+  }
+}
+/* ========================End td======================== */
+/* =======================start choose ==================== */
+.choose {
+  width: 60.5px;
+  height: 31.5px;
+  border: 2px;
+  border-radius: 6px;
+  font-size: 12px;
+  border-color: black;
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  .display p {
+    font-size: 10px;
+  }
+}
+ul li {
+  list-style-type: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: rgba(126, 130, 153, 1);
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  ul li {
+    margin-left: 2px;
+    margin-right: 2px;
+    font-family: Inter;
+    font-size: 12px;
+
+    padding: 6px 8px;
+  }
+  ul {
+    padding-left: 8px;
+  }
+}
+ul li:active {
+  color: white;
+  background-color: rgba(138, 116, 249, 1);
+}
+ul li:focus {
+  outline: none; /* Remove default focus outline */
+  background-color: rgba(138, 116, 249, 1);
+  color: white;
+}
+
+/*========================== End choose========================== */

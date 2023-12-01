@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+/* ==================start all ========================== */
+.all {
+  margin: auto;
+}
+@media (min-width: 1200px) {
+  .all {
+    width: 1272px;
+  }
+}
+@media (min-width: 300px) and (max-width: 540px) {
+  .all {
+    width: 350px;
+  }
+}
+@media (min-width: 540px) and (max-width: 1200px) {
+  .all {
+    width: 720px;
+  }
+}
+/* ========================End all========================= */
+.back .icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: rgba(231, 234, 237, 1);
+}
+
+label {
+  font-weight: 800px;
+}
+
+.edit {
+  width: 78px;
+  height: 34px;
+  border-radius: 4px;
+  border: 1px;
+  background-color: rgba(249, 249, 249, 1);
+}
