@@ -13,6 +13,11 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpErrorInterceptor } from '../interceptors/http-error.interceptor';
 
+// Define HttpLoaderFactory
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,11 +30,12 @@ import { HttpErrorInterceptor } from '../interceptors/http-error.interceptor';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     TranslateModule.forRoot({
       defaultLanguage: 'en',
       loader: {
         provide: TranslateLoader,
-        useExisting: createTranslateLoader,
+        useFactory: HttpLoaderFactory, // Use the defined function here
         deps: [HttpClient],
       },
     }),
@@ -44,11 +50,3 @@ import { HttpErrorInterceptor } from '../interceptors/http-error.interceptor';
   bootstrap: [AppComponent],
 })
 export class AppModule {}
-
-export function createTranslateLoader(http: HttpClient) {
-  return new TranslateHttpLoader(
-    http,
-    '/tazkarty/Tazkarty/src/assets/i18n/',
-    '.json'
-  );
-}

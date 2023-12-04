@@ -9,3 +9,15 @@
     width: 1272px;
   }
 }
+
+@media (min-width: 300px) and (max-width: 540px) {
+  .all-components .row {
+    width: 350px;
+    margin: auto;
+  }
+}
+.btn {
+  margin-inline: 5px;
+  background: rgba(138, 116, 249, 1);
+  color: white;
+}

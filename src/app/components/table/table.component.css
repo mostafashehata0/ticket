@@ -21,6 +21,7 @@
   }
   .table {
     width: 350px;
+    margin: auto;
   }
 }
 @media (min-width: 540px) and (max-width: 1200px) {
@@ -91,7 +92,12 @@
 .table td {
   text-align: center;
 }
-
+.info {
+  margin-inline-start: 8px;
+}
+.icon {
+  margin-inline-end: 8px;
+}
 @media (min-width: 300px) and (max-width: 540px) {
   .table td {
     font-size: 6px;
@@ -99,6 +105,7 @@
   .first {
     padding: 0;
   }
+
   .user p {
     font-size: 6px;
   }
@@ -178,6 +185,7 @@ p {
   border-color: rgba(138, 116, 249, 1);
   border-radius: 5px;
   position: relative;
+  margin-inline-start: 8px;
 }
 .download img {
   position: absolute;

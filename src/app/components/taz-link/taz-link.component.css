@@ -7,6 +7,7 @@
   background-color: hsl(250, 88%, 71%);
   color: white;
   margin: auto;
+  overflow: hidden;
 }
 
 @media (min-width: 1200px) {
@@ -19,6 +20,7 @@
   .taz-link {
     width: 350px;
     height: 264px;
+    box-sizing: border-box;
   }
 }
 
@@ -160,6 +162,9 @@ p {
 
   border-radius: 4px;
 }
+.details {
+  margin-inline-start: 32px;
+}
 .details > p {
   font-family: Neo Sans Arabic;
   font-size: 14px;
@@ -167,6 +172,12 @@ p {
   line-height: 17px;
   letter-spacing: 0em;
   text-align: left;
+}
+.details p:last-child {
+  margin-inline-start: 16px;
+}
+.details button {
+  margin-inline-start: 16px;
 }
 .precentage button {
   /* background-color: hsl(250, 88%, 71%); */
@@ -177,4 +188,11 @@ p {
   height: 30px;
   border-radius: 4px;
   text-align: center;
+  font-size: 10px;
+}
+.precentage svg {
+  margin-inline-end: 4px;
+}
+.barcode {
+  margin-inline-end: 32px;
 }

@@ -1,10 +1,8 @@
-<div class="all-components">
+<div class="all-components" [dir]="'dir' | translate">
+  <button class="btn" (click)="switchLanguage('en')">English</button>
+  <button class="btn" (click)="switchLanguage('ar')">Arabic</button>
   <div class="row">
     <app-taznum class="col-12 pe-0"></app-taznum>
-    <!-- <select (change)="translate($event)">
-      <option>English</option>
-      <option>Arabic</option>
-    </select> -->
     <div class="row mb-1 ps-0 pe-0 chart">
       <app-chart class="col-lg-8 col-12 pb-5 ps-0 pe-0"></app-chart>
       <app-taz-link

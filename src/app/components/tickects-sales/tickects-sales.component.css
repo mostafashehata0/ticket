@@ -61,6 +61,8 @@
 .search input {
   border-radius: 5px;
   border-color: transparent;
+  margin-inline-start: 4px;
+  margin-inline-end: 4px;
 }
 /*========================== End search============================= */
 /*========================== start icon =========================== */
@@ -71,6 +73,7 @@
   border: 0.75px;
   background-color: white;
   text-align: center;
+  margin-inline-end: 4px;
 }
 @media (min-width: 300px) and (max-width: 540px) {
   .icon {
@@ -112,6 +115,19 @@
 }
 /*========================== End icon =========================== */
 /* ==============start buttons ================================= */
+
+.form-check {
+  margin-inline-start: 32px;
+}
+label {
+  font-family: Neo Sans Arabic;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(156, 157, 159, 1);
+}
 @media (min-width: 300px) and (max-width: 540px) {
   .buttons {
     width: 90px;
@@ -134,7 +150,7 @@
 .buttons button {
   width: 100px;
   height: 35px;
-  margin-left: 18px;
+  margin-inline-start: 16px;
   border-radius: 6px;
   color: white;
   background-color: rgba(138, 116, 249, 1);
@@ -142,12 +158,13 @@
 }
 @media (min-width: 300px) and (max-width: 540px) {
   .buttons button {
-    width: 80px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
     border-radius: 6px;
     color: white;
     background-color: rgba(138, 116, 249, 1);
-    font-size: 6px;
+    font-size: 4px;
+    margin-inline-start: 1px;
   }
 }
 /* ============================End buttons============================ */

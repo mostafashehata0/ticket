@@ -1,9 +1,11 @@
 <div class="all">
   <div class="usage d-flex justify-content-between align-items-center">
-    <div class="statistics ms-3">
-      <h6>Coupon Usage Statistics</h6>
+    <div class="statistics">
+      <h6>
+        {{ "chart.Coupon" | translate }}
+      </h6>
       <p class="discreption">
-        July 5, 2023 - August 5, 2023
+        {{ "chart.discreption" | translate }}
 
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -19,12 +21,13 @@
         </svg>
       </p>
     </div>
-    <div class="statistcs-type me-lg-3">
+    <div class="statistcs-type">
       <select>
-        <option selected>Annual</option>
+        <option selected>{{ "chart.type" | translate }}</option>
       </select>
     </div>
   </div>
-
-  <canvas id="lineChartCanvas" width="40" height="180"></canvas>
+  <div class="chart">
+    <canvas id="lineChartCanvas"></canvas>
+  </div>
 </div>

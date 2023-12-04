@@ -1,6 +1,39 @@
 {
-  "tazNumber": {
+  "dir": "ltr",
+  "taznum": {
     "number": "Tiket Number #2342",
-    "button": "Edit"
+    "edit": "Edit"
+  },
+  "chart": {
+    "Coupon": "Coupon Usage Statistics",
+    "discreption": "July 5, 2023 - August 5, 2023",
+    "type": "Annual"
+  },
+  "tazlink": {
+    "title": "Disply The Show Ticket",
+    "avilability": "Avilable to 15 jul 2023",
+    "Sale": "Sale",
+    "Share": "Share"
+  },
+  "ticketssales": {
+    "search": "Tickets Sales",
+    "placeholder": "Search For",
+    "label": "valid",
+    "button": "Book New Ticket"
+  },
+  "table": {
+    "User": "The User",
+    "Ticket No": "Ticket No",
+    "Value": "  Ticket Value ",
+    "Cinema": "Cinema",
+    "Persons": "No Of Persons",
+    "Buy": "No Of Buy",
+    "Ticket": "Ticket",
+    "name": "Ahmed Mahmoud",
+    "number": "0123456789",
+    "address": " Cinema Masr,Mol AlArAb,Atnan Tour,Saraia ElQuba...",
+    "times": "once",
+    "details no": "Ticket No 45 .PDF",
+    "details pdf": "9mb . PDF"
   }
 }

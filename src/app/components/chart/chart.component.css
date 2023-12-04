@@ -13,6 +13,10 @@
   .all {
     width: 839px;
   }
+  .chart {
+    width: 839px;
+    height: 220px;
+  }
 }
 @media (min-width: 300px) and (max-width: 540px) {
   .all {
@@ -41,18 +45,21 @@
   .statistics {
     width: 243px;
     height: 36px;
+    margin-inline-start: 16px;
   }
 }
 @media (min-width: 300px) and (max-width: 540px) {
   .statistics {
     width: 200px;
     height: 36px;
+    margin-inline-start: 16px;
   }
 }
 @media (min-width: 540px) and (max-width: 1200px) {
   .statistics {
     width: 200px;
     height: 36px;
+    margin-inline-start: 16px;
   }
 }
 h6 {
@@ -67,6 +74,9 @@ h6 {
 }
 
 @media (min-width: 1200px) {
+  .statistcs-type {
+    margin-inline-end: 16px;
+  }
   .statistcs-type select {
     width: 67.37px;
     height: 30.28px;

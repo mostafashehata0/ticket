@@ -7,5 +7,10 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./taznum.component.css'],
 })
 export class TaznumComponent {
-  // constructor(private translate: TranslateService) {}
+  constructor(public translate: TranslateService) {
+    this.translate.setDefaultLang('en');
+  }
+  switchLanguage(language: string) {
+    this.translate.use(language);
+  }
 }
