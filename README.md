@@ -1,4 +1,4 @@
 # Tazkarty
 
-'https://tangerine-lamington-3a8426.netlify.app'
+'https://precious-mermaid-bcb5d7.netlify.app'
 
